@@ -1,0 +1,27 @@
+{
+  "name": "fitScale",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.548.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.9.5",
+    "react-scripts": "^5.0.1",
+    "recharts": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

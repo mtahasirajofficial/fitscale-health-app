@@ -1,0 +1,46 @@
+.result-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 25px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid #4caf50;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 40px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.result-value {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.result-unit {
+  font-size: 16px;
+  color: #777;
+}
+
+.result-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}

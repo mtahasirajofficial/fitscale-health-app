@@ -1,0 +1,152 @@
+.diet-planner-container {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  overflow: hidden;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.diet-bg-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.diet-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.diet-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.diet-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.start-diet-btn,
+.calc-btn,
+.reset-btn {
+  background: linear-gradient(135deg, #00bfa6, #4ade80);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.start-diet-btn:hover,
+.calc-btn:hover,
+.reset-btn:hover {
+  background: linear-gradient(135deg, #00c9a7, #22c55e);
+  transform: translateY(-2px);
+}
+
+.diet-form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 16px;
+  max-width: 480px;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.4s ease-in-out;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #00bfa6;
+  box-shadow: 0 0 0 3px rgba(0, 191, 166, 0.2);
+  outline: none;
+}
+
+.diet-results {
+  background-color: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 520px;
+  margin: 20px auto;
+  animation: fadeIn 0.5s ease;
+}
+
+.macro-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  color: #333;
+}
+
+.chart-cell {
+  transition: transform 0.2s ease;
+}
+
+.chart-cell:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

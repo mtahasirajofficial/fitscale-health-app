@@ -1,0 +1,5 @@
+.site-footer { background:#ffffff; border-top: 1px solid #eef2f6; padding: 22px 0; margin-top: 30px; }
+.footer-inner { display:flex; justify-content:space-between; align-items:center; width:min(1100px,94%); margin:0 auto; }
+.footer-left h4 { margin:0; color:#0f172a; }
+.footer-left p { margin:4px 0 0; color:#64748b; font-size: .95rem; }
+.footer-right a { margin-left: 16px; color:#0f172a; text-decoration:none; font-weight:600; }
